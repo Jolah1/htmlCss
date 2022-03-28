@@ -1,0 +1,62 @@
+. {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(181, 133, 226);
+  background-color: purple;
+  width: 300px;
+  text-align: center;
+}
+.marked {
+  color: rgb(236, 12, 12);
+  text-align: center;
+}
+
+#luxury {
+  color: rgb(231, 156, 212);
+  text-align: center;
+  margin: auto;
+}
+button {
+  padding: 2rem 4rem;
+  margin: 20rem;
+  background: none;
+  border: 0.3rem solid rgb(226, 56, 175);
+  color: rgb(177, 171, 175);
+  font-size: 2.4rem;
+  border-radius: 2rem;
+  background: rgb(124, 21, 110);
+}
+nav {
+  color: antiquewhite;
+  background-color: rgb(190, 75, 146);
+
+  padding: 20px 20px;
+  border: 5px solid rgb(101, 104, 104);
+  height: 5rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+  
+}
+.note {
+  color: blanchedalmond;
+  background-color: rgb(187, 32, 110);
+  width: 300px;
+  padding: 20px;
+  border: 7px solid rgb(101, 104, 104);
+  text-align: center;
+}
+
+.videos {
+  background-color: rgb(233, 122, 187);
+  padding: 20px;
+  width: 800px;
+  border: 5px solid rgb(101, 104, 104);
+}
+.p {
+  font-size: 16px;
+}
