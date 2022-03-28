@@ -11,26 +11,29 @@ h1 {
   text-align: center;
 }
 .marked {
-  color: rgb(236, 12, 12);
+  color: rgb(252, 246, 246);
   text-align: center;
 }
 
-#luxury {
-  color: rgb(231, 156, 212);
-  margin: auto;
-  margin: 2rem;
-  text-align: center;
+lux {
+    color: rgb(231, 156, 212);
+    margin: auto;
+    margin: 2rem;
+    text-align: center;
+  }
 
-}
 button {
-  padding: 2rem 4rem;
-  margin: 20rem;
-  background: none;
-  border: 0.3rem solid rgb(226, 56, 175);
-  color: rgb(177, 171, 175);
+  padding: 1rem 4rem;
+  margin-bottom:  10rem;
+  border: none;
+  color: rgb(248, 246, 247);
   font-size: 1.8rem;
   border-radius: 2rem;
   background: rgb(124, 21, 110);
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+
 }
 
 }h2 {
@@ -38,11 +41,11 @@ button {
 }
 nav {
   color: rgb(248, 247, 245);
-  background-color: rgb(253, 201, 233);
+  background-color: rgb(187, 32, 110);
   border: 3px solid rgb(101, 104, 104);
-  height: 4rem;
+  height: 2rem;
   display: block;
-  padding: 3rem;
+  padding: 2rem;
 }
 
  nav h2 {
@@ -61,7 +64,7 @@ nav li {
 a {
   color: whitesmoke;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 0rem 4rem;
 }
 
@@ -71,7 +74,6 @@ a {
   width: 300px;
   padding: 20px;
   border: 7px solid rgb(101, 104, 104);
-  text-align: center;
 }
 
 .videos {
@@ -87,8 +89,40 @@ a {
 .pick {
   background-image: url("/Images/IMG_7753.jpeg");
   height: 50rem;
-  background-position: center;
   background-size: cover;
   text-align: center;
   color: white;
+  padding-top: 10rem;
+  text-shadow: 3px 5px 3px black;
+}
+
+.pick h1 {
+  text-align: center;
+  margin-left: 10rem;
+  background-color: rgb(71, 70, 68);
+  color: azure;
+  width: 50rem;
+
+}
+
+h2 {
+  text-align: center;
+  }
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2,4rem;
+  width: 50%;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+}
+
+footer {
+  display: block;
+  float: right;
 }
